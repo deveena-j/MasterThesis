@@ -14,8 +14,8 @@ public class Network {
 
         System.out.println("Client File Parsing - Initiated");
         //Parses all cab files placed in the directory location - space delimited READY
-        File folder = new File("/Users/DEDJAIN1/OneDrive - EY/Desktop/Personal/Master_Thesis/Thesis_Writing/External_Tools/Cab_Conversions/CabDirectoryTest/");
-        String pathname = "/Users/DEDJAIN1/OneDrive - EY/Desktop/Personal/Master_Thesis/Thesis_Writing/External_Tools/Cab_Conversions/CabDirectoryTest/";
+        File folder = new File("/Users/DEDJAIN1/Desktop/Personal/Master_Thesis/Thesis_Writing/External_Tools/Cab_Conversions/CabDirectoryTest/");
+        String pathname = "/Users/DEDJAIN1/Desktop/Personal/Master_Thesis/Thesis_Writing/External_Tools/Cab_Conversions/CabDirectoryTest/";
         File[] listOfFiles = folder.listFiles();
         for (int i = 0; i < listOfFiles.length; i++) {
             if (listOfFiles[i].isFile()) {
